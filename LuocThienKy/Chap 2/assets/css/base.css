@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* bottom: 0;
+    top: 0; */
+}
+a{
+    text-decoration: none;
+}
+a:hover
+{
+    cursor: pointer;
+    opacity: 0.6;
+}
+body
+{
+    font-family: Tahoma,sans-serif,Helvetica,Arial;
+
+    font-weight: 100;
+}
+html
+{
+    font-family: Tahoma, sans-serif,Helvetica,Arial;
+}
+.carda
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.select_menu
+{
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 41px;
+    margin-left: -15px;
+    width: auto;
+    display: none;
+    z-index: 1;
+
+}
+.menu_items
+{
+    float: left;
+    padding: 10px 30px 10px 10px;
+}
+.items_cate
+{
+    list-style: none;
+    text-align: left;
+    color: #000;
+    padding: 5px 10px 10px 5px;
+}
+.hover_cate:hover .select_menu
+{
+    display: block;
+}
+.rank_items
+{
+    list-style: none;
+    text-align: left;
+    padding: 5px 10px 10px 5px;
+    color: #000;
+}
+.hover_rank:hover .select_menu
+{
+    display: block;
+}
+.logo_cate
+{
+    float: right;
+    margin-left: 21px;
+    font-size: small;
+}
+.rank_logo
+{
+    float: right;
+    margin-left: 21px;
+    font-size: small;
+    margin-top: 2px;
+}

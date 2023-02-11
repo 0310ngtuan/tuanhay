@@ -1,0 +1,417 @@
+#header {
+    height: 90px;
+    width: 100%;
+    z-index: 1000;
+}
+#header .header_background
+{
+    background-color: #3F3567;
+    height: 50px;
+    text-align: center;
+}
+#navbar {
+    position: relative;
+    height: 100%;
+    display: inline-block;
+}
+#navbar .nav_link_logo
+{
+    display: block;
+    height: 100%;
+}
+#navbar .nav_brand
+{
+    float: left;
+    padding: 0 15px;
+    font-size: 45px;
+    height: 50px;
+    margin: 0;
+}
+#navbar .nav_search
+{
+    line-height: 50px;
+    float: left;
+    padding: 0 15px;
+    height: 50px;
+    margin: 0;
+}
+#navbar .nav_input
+{
+    background-color: #fff;
+    font-size: 15px;
+    padding: 10px 35px 8px 8px;
+    border: 1px solid #C0EEE4;
+    width: 400px;
+
+}
+#navbar .nav_input:focus
+{
+    outline: none;
+}
+#navbar .nav_input_search
+{
+    float: right;
+    position: relative;
+}
+.fas, .fa-solid {
+    font-weight: 900;
+    margin-left: -30px;
+}
+#navbar .nav_nofi
+{
+    line-height: 50px;
+    float: left;
+    padding: 0 30px 0 100px;
+    height: 50px;
+}
+#navbar .nav_logo
+{
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+#navbar .nav_sign
+{
+    float:left;
+    padding: 0 15px;
+    line-height: 50px;
+}
+#navbar .sign_register:hover
+{
+    text-decoration:underline;
+}
+#navbar .sign_log:hover
+{
+    text-decoration:underline;
+}
+#navbar .sign_register::before
+{
+    content: "/";
+    color: #fff;
+    padding: 0 5px 0 0;    
+}
+#header .menu_inner 
+{
+    background-color: #E4E4E4;
+    height: 40px;
+    position: relative;
+}
+#header .inner 
+{
+    text-align: center;
+}
+#header .inner_list_items 
+{
+    display: inline-block;
+}
+#header .items_inner 
+{
+    float: left;
+    list-style: none;
+    padding: 10px 15px;
+    font-size: large;
+    font-size: 14px;
+}
+#header .logo_home
+{
+    color: #ae4ad9;
+    text-decoration: none;
+}
+#header .items_inner:hover
+{
+    background-color: aliceblue;
+    color: #BB84E8; 
+}
+
+
+/* Footer */
+#footer
+{
+    height: 200px;
+    width: 100%;
+    background-color: #222222;
+}
+.footer_main
+{
+    text-align: center;
+}
+#footer .footer_container
+{
+    background-color: #222222;
+    width: 1030px;
+    height: 200px;
+    display: inline-block;
+}
+.footer_logo_contact
+{
+    height: 200px;
+    width: 343px;
+    float: left;
+    padding: 14px 0px;
+}
+.footer_logo
+{
+    float: left;
+}
+.footer_facebook
+{
+    height: 70px;
+    width: 330px;
+    background-color: #fff;
+    margin-top: 42px;
+}
+.title_contact
+{
+    color: #fff;
+    font-size: 12px;
+    float: left;
+    padding: 10px 10px 0 0;
+}
+.footer_key_word
+{
+    height: 200px;
+    width: 686px;
+    float: right;
+}
+.title_key_word
+{
+    width: 100%;
+    padding: 14px 0;
+}
+.title_name
+{
+    color: #fff;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+}
+.key_word_inline
+{
+    text-align:center;
+}
+.list_items_key_word
+{
+    display: inline-block;
+}
+.key_word_list_items
+{
+    color: #fff;
+    list-style: none;
+}
+.key_word_items
+{
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+.items_key_word_title
+{
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+.content_facebook
+{
+    padding: 10px 0;
+}
+.img_avatar_facebook
+{
+    float: left;
+}
+.font_avatar
+{
+    width: 52px;
+    height: 52px;
+}
+.title_web_link
+{
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.like_page_facabook
+{
+    margin-left: 65px;
+    width: 150px;
+}
+.like_page
+{
+    float: left;
+    margin-top: -2px;
+}
+.like_member
+{
+    color: #000;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+a
+{
+    color: #288ad6;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: plum;
+}
+
+/* Nội dung truyện tranh */
+#content
+{
+    height: auto;
+    text-align: center;
+    background-color: #000;
+}
+.title_comic
+{
+    padding: 0 10px;
+}
+.content_comic
+{
+    height: auto;
+    background-color: #fff;
+    width: 1000px;
+    display: inline-block;
+}
+.container_comic  
+{
+}                
+.content_main
+{
+
+}
+.home_cate_comic-name
+{
+    padding: 6px 0 10px 10px;
+}
+.title_link_main
+{
+    font-size: 14px;
+}
+.name_chap_update
+{
+    padding: 10px 0;
+}
+.name_comic
+{
+    font-size: 20px;
+}
+.note_comic
+{
+    font-size: 20px;
+}
+.note_chapter
+{
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 14px;
+}
+.line_name
+{
+    opacity: 0.2;
+}
+
+.note_sever{
+    padding: 10px 0 5px 0;
+}
+.text_note
+{
+    font-size: 12px;
+}
+
+.container_button
+{
+    background-color: #EAEAEA;
+    padding: 0 0 10px 0;
+}
+.button_list
+{
+}
+.button_list_items
+{
+    text-align: center;
+    padding: 5px;
+}
+.button_items
+{
+    list-style: none;
+    display: inline-block;
+}
+.btn
+{
+    padding: 8px 8px;
+    border: 0;
+    border-radius: 4px;
+    width: auto;
+}
+
+.icon_home_menu
+{
+    margin-left: 0;
+    font-size: 20px;
+    padding: 0 4px;
+}
+.next_chapter
+{
+    padding: 0 10px;
+    margin-left: -20px;
+}
+
+#chap
+{
+    height: 32px;
+    width: 243px;
+    border-radius: 0;
+}
+.btn_return_chap
+{
+    width: 34px;
+    height: 34px;
+    background-color: #d9534f;
+    border: 0;
+}
+.icon_return
+{
+    color: #fff;
+    margin-left: 0px;
+}
+.icon_next
+{
+    color: #fff;
+    margin-left: 0px;
+
+}
+.btn_next_chap
+{
+    width: 34px;
+    height: 34px;
+    background-color: #d9534f;
+    border: 0;
+
+}
+
+
+.content_main
+{
+ background-color: #000;    
+}
+.img_comic
+{
+    min-height: 35px;
+    color: #fff;
+    border-color: #000;
+    border-image: initial;
+    border-style: none;
+    border-width: medium;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: auto;
+    z-index: 999;
+    position: relative;
+}
